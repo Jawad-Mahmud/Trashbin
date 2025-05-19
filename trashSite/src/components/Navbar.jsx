@@ -2,6 +2,7 @@ import React from 'react'
 import { useState,useEffect } from 'react'
 import DekstopNavbar from './DekstopNavbar'
 import { MiniNavbar } from './MiniNavbar'
+
 export const Navbar = () => {
 
  const [isDekstop, setisDekstop] = useState(window.innerWidth>768);
